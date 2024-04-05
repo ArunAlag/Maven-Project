@@ -33,5 +33,5 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Push Image to dockerhub
         run: |
-          docker tag myapp:latest arunalagusunthram/testImage:latest
-          docker push arunalagusunthram/testImage:latest
+          docker tag myapp:latest arunalagusunthram/testimage:latest
+          docker push arunalagusunthram/testimage:latest
